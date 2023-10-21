@@ -5,3 +5,4 @@ After that we can able to go and see the added items in cart page
 ![Screenshot (40)](https://github.com/bharathiraja-developer/test/assets/142418045/b6fafc33-d72c-4e5e-9295-fa3889911065)
 ![Screenshot (41)](https://github.com/bharathiraja-developer/test/assets/142418045/414babfa-5ab3-4c7d-9881-e9fe1a22b699)
 We can see the changes in the total by changing the quantity.
+And we again click the home button to navigate to home page.
