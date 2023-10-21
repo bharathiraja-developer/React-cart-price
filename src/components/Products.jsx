@@ -11,6 +11,7 @@ function Products({
   mrpPrice,
   starRating,
   src,
+  state,
 }) {
   return (
     <div className="col mb-5">
@@ -31,6 +32,7 @@ function Products({
             mrpPrice,
             starRating,
             src,
+            state,
           }}
         >
           <Button />

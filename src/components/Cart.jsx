@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import { CartContext } from "../App";
 import CartItem from "./CartItem";
 import CartTotal from "./CartTotal";
+import { Link } from "react-router-dom";
 
 const TotalContext = createContext();
 
@@ -37,6 +38,13 @@ function Cart() {
 
   return (
     <TotalContext.Provider value={{ Total, setTotal, CalculateTotal }}>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container px-4 px-lg-5">
+          <Link to="/">
+            <button className="btn btn-outline-dark">Home</button>
+          </Link>
+        </div>
+      </nav>
       <div className="container-fluid mt-2 ms-2 me-2">
         {cartArray.map((item) => (
           <CartItem key={item.id} item={item} />
